@@ -31,7 +31,7 @@ def show_inputs(tab_name, tab_key):
                 incident_angle = math.degrees(incident_angle_rad)
             except:
                 incident_angle = 0.0
-            st.number_input("Incident Angle (°)", value=round(incident_angle, 2), disabled=True, key=f"incident_angle_{tab_key}")ue)
+            st.number_input("Incident Angle (°)", value=round(incident_angle, 2), disabled=True, key=f"incident_angle_{tab_key}")
 
         st.markdown("---")
 
