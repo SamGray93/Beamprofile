@@ -40,4 +40,4 @@ show_inputs(tab2, "rectangular")
 
 # Placeholder for beam grid
 st.markdown("### Beam Spread Grid (150 mm × 150 mm)")
-st.image("grid_placeholder.png", caption="Scaled grid preview", use_column_width=True)
+st.image("grid_placeholder.png", use_container_width=True)
